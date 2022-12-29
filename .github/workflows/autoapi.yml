@@ -12,8 +12,7 @@ on:
   schedule:
     - cron: "*/10 8-18 * * 1-5"
     # - cron: "12 */1 * * *"
-  watch:
-    types: [started]
+  workflow_dispatch:
    
 jobs:
   build:
